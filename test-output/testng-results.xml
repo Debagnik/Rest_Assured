@@ -1,0 +1,122 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testng-results skipped="0" failed="0" total="4" passed="4">
+  <reporter-output>
+  </reporter-output>
+  <suite name="Default suite" duration-ms="5987" started-at="2022-07-04T08:34:52Z" finished-at="2022-07-04T08:34:58Z">
+    <groups>
+    </groups>
+    <test name="Default test" duration-ms="5987" started-at="2022-07-04T08:34:52Z" finished-at="2022-07-04T08:34:58Z">
+      <class name="org.assign.Restassured.project">
+        <test-method status="PASS" signature="firstPOST(java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String, int)[pri:0, instance:org.assign.Restassured.project@71c7db30]" name="firstPOST" duration-ms="2575" started-at="2022-07-04T14:04:53Z" data-provider="postData" finished-at="2022-07-04T14:04:55Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[Rak]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[003PXN]]>
+              </value>
+            </param>
+            <param index="2">
+              <value>
+                <![CDATA[IN]]>
+              </value>
+            </param>
+            <param index="3">
+              <value>
+                <![CDATA[abc@xyz.com]]>
+              </value>
+            </param>
+            <param index="4">
+              <value>
+                <![CDATA[pass123]]>
+              </value>
+            </param>
+            <param index="5">
+              <value>
+                <![CDATA[9876543210]]>
+              </value>
+            </param>
+            <param index="6">
+              <value>
+                <![CDATA[0]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- firstPOST -->
+        <test-method status="PASS" signature="firstPUT(java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String, int)[pri:0, instance:org.assign.Restassured.project@71c7db30]" name="firstPUT" duration-ms="1106" started-at="2022-07-04T14:04:55Z" data-provider="putData" depends-on-methods="org.assign.Restassured.project.firstPOST" finished-at="2022-07-04T14:04:56Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[Rak]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[003PXN]]>
+              </value>
+            </param>
+            <param index="2">
+              <value>
+                <![CDATA[744]]>
+              </value>
+            </param>
+            <param index="3">
+              <value>
+                <![CDATA[abc@xyz.com]]>
+              </value>
+            </param>
+            <param index="4">
+              <value>
+                <![CDATA[pass123]]>
+              </value>
+            </param>
+            <param index="5">
+              <value>
+                <![CDATA[9876543210]]>
+              </value>
+            </param>
+            <param index="6">
+              <value>
+                <![CDATA[0]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- firstPUT -->
+        <test-method status="PASS" signature="login(java.lang.String, java.lang.String)[pri:0, instance:org.assign.Restassured.project@71c7db30]" name="login" duration-ms="1205" started-at="2022-07-04T14:04:56Z" data-provider="loginData" depends-on-methods="org.assign.Restassured.project.firstPOST" finished-at="2022-07-04T14:04:57Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[Rak]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[pass123]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- login -->
+        <test-method status="PASS" signature="firstDELETE(java.lang.String)[pri:0, instance:org.assign.Restassured.project@71c7db30]" name="firstDELETE" duration-ms="1090" started-at="2022-07-04T14:04:57Z" data-provider="deleteData" depends-on-methods="org.assign.Restassured.project.firstPUT" finished-at="2022-07-04T14:04:58Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[Rak]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- firstDELETE -->
+      </class> <!-- org.assign.Restassured.project -->
+    </test> <!-- Default test -->
+  </suite> <!-- Default suite -->
+</testng-results>
